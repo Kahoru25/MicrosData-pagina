@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        content="Diseño, Innovación, Soluciones a medida, Desarrollo, Ingeniería, Proceso empresarial, Excelencia técnica, Optimización de procesos, Soluciones tecnológicas de vanguardia, Eficiencia empresarial, Impulso al progreso empresarial, Transformación digital, Desarrollo de software personalizado, Liderazgo en diseño y tecnología, Innovación en soluciones empresariales"
+        name="keyword">
+    <meta
+        content="Somos líderes en el diseño y desarrollo de software, ofreciendo soluciones innovadoras y a medida que impulsan el progreso empresarial. Con un enfoque centrado en la excelencia técnica, destacamos en la optimización de procesos, proporcionando soluciones tecnológicas de vanguardia. Descubre cómo nuestra experiencia en ingeniería y nuestro compromiso con la eficiencia empresarial pueden transformar tu camino hacia el éxito digital."
+        name="description">
+    <link rel="shortcut icon" href="./images/logoico.png" type="image/x-icon">
+
+
+    <title>MicrosData</title>
+
+    <link href="/src/output.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/libs/hamburgers/dist/hamburgers.css">
+
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <link href="assets/libs/owlcarousel/owl.carousel.min.js" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/stylemain.css">
+    <link rel="stylesheet" href="/assets/libs/aos-master/dist/aos.css">
+</head>
+
+<body>
+
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class=" sticky-top bg-nav">
+        <div class="">
+            <nav class="control-nav navbar bg-navq  navbar-expand-lg navbar-init p-0">
+                <a href="index.html" class="navbar-brand">
+                    <img src="/images/logo1.png" class="logoimg" alt="">
+                </a>
+                <button class="hamburger navbar-toggler ms-auto me-0" data-bs-toggle="collapse" type="button"
+                    data-bs-target="#navbarCollapse">
+                    <span class=" hamburger-box">
+                        <span class="hamburger-inner hamburger--3dx"></span>
+                    </span>
+                </button>
+                <!-- <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Inicio</a>
+                        <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Sofware</a>
+                            <div class="dropdown-menu mt-2" style="background-color: #4b4b4b9c;">
+                                <a href="feature.html" class="dropdown-item">Hoteleria</a>
+                                <a href="team.html" class="dropdown-item">Inventario</a>
+                                <a href="faq.html" class="dropdown-item">Restaurantes</a>
+                                <a href="testimonial.html" class="dropdown-item">ChatBot IA</a>
+                                <a href="404.html" class="dropdown-item">E-Commerce</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="./images/carrousel/img1.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class=" justify-content-start">
+                                <div class="">
+                                    <h1 data-aos="zoom-in"
+                                        class=" text-banner mb-4 text-secondary animated slideInDown">Optimiza procesos
+                                        con nuestra ingeniería avanzada.
+                                    </h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="./images/carrousel/img2.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="justify-content-start">
+                                <div class="">
+                                    <h1 data-aos="zoom-in" class="text-banner mb-4 text-secondary animated slideInDown">
+                                        Creatividad y
+                                        funcionalidad para experiencias digitales impactantes.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="w-100" src="./images/carrousel/im3.jpg" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="justify-content-start">
+                                <div class="">
+                                    <h1 data-aos="zoom-in" class="text-banner mb-4 text-secondary animated slideInDown">
+                                        Potencia tu empresa
+                                        con nuestras soluciones tecnológicas.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button> -->
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <div class="content-xd">
+        <div
+            class="cont-maimg w-100 position-relative bg-black text-white bg-cover d-flex align-items-center content-item">
+            <div class="container-fluid px-vw-5">
+                <div class="position-absolute w-100 h-50 bg-bggreym bottom-0 start-0"
+                    style="border-radius: 0 30px 0 0;">
+                </div>
+                <div class="d-flex align-items-center itemcontent justify-content-center px-0 g-5">
+                    <div class=" item1">
+                        <img src="images/mockup-pc.png" alt="abstract image"
+                            class="img-fluid position-relative imgsub shadow" data-aos="fade-up">
+                    </div>
+                    <div class=" item2">
+                        <img src="/images/tablet-mckup.png" alt="abstract image"
+                            class="img-fluid position-relative imgsub shadow" data-aos="fade-up"
+                            data-aos-duration="2000">
+                    </div>
+                    <div class=" item3">
+                        <img src="./images/mockup-chat.png" alt="abstract image"
+                            class="img-fluid position-relative imgsub imgde shadow" data-aos="fade-up"
+                            data-aos-duration="3000">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="cont-maimg w-100 position-relative bg-black text-white bg-cover d-flex align-items-center">
+        <div class="container-fluid px-vw-5">
+            <div class="position-absolute w-100 h-50 bg-bggreym bottom-0 start-0"
+                style="border-radius: 0 30px 0 0;">
+            </div>
+            <div class="row d-flex align-items-center position-relative justify-content-center px-0 g-5">
+                <div class="col-12 col-lg-6">
+                    <img src="images/mockup-pc.png" width="2280" height="1732" alt="abstract image"
+                        class="img-fluid position-relative imgsub shadow" data-aos="fade-up">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="/images/tablet-mckup.png" width="1116" height="" alt="abstract image"
+                        class="img-fluid position-relative imgsub shadow" data-aos="fade-up" data-aos-duration="2000">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="./images/mockup-chat.png" width="300" height="848" alt="abstract image"
+                        class="img-fluid position-relative imgsub imgde shadow" data-aos="fade-up"
+                        data-aos-duration="3000">
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <div class="bg-bggreym py-10" style="overflow: hidden;">
+        <div class="container subcontainer">
+            <div class="row d-flex align-items-center">
+                <div class="col-12 col-lg-7 text-lg-end" data-aos="fade-right">
+                    <span class="h5  fw-lighter" style="font-size: 2rem; color: #f9fce9 !important;">Que somos</span>
+                    <h2 class="display-4 text-secondary">Innovación en software y desarrollo, ofreciendo soluciones para
+                        potenciar el crecimiento empresarial.</h2>
+                </div>
+                <div class="col-12 col-lg-5" data-aos="fade-left">
+                    <h3 class="pt-5 text-secondary">Diseño de software</h3>
+                    <p class="text-tertiary">Lideramos el diseño de software con innovación y soluciones a medida,
+                        destacándonos en la optimización de procesos para impulsar el éxito empresarial. Nuestra
+                        dedicación está centrada en ofrecer soluciones excepcionales que se adaptan a las necesidades
+                        específicas de cada cliente.
+                        <!-- <div style="display: flex; align-items: center;">
+                            <a href="#" class="link-fancy link-fancy-light me-2">Dime más </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-arrow-right-circle logoclient" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                            </svg>
+                        </div> -->
+                    </p>
+                    <h3 class="border-top botext-tertiary pt-5 mt-5 text-secondary">Desarrollo y Ingeniería</h3>
+                    <p class="text-tertiary">En el desarrollo y la ingeniería, destacamos al ofrecer soluciones
+                        tecnológicas de vanguardia que impulsan el progreso empresarial con eficiencia y destacada
+                        excelencia técnica. Nuestra dedicación se centra en proporcionar soluciones innovadoras que
+                        optimizan el camino hacia el éxito empresarial, combinando eficiencia y calidad.<br>
+                        <!-- <div style="display: flex; align-items: center;">
+                            <a href="#" class="link-fancy link-fancy-light me-2">Dime más </a>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                                class="bi bi-arrow-right-circle logoclient" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                            </svg>
+                        </div> -->
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Features -->
+    <div style="overflow: hidden;" data-aos="fade-up" class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto ">
+        <div class="relative p-6 md:p-16 ">
+            <!-- Grid -->
+            <div class="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16  lg:items-center">
+                <div class="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
+                    <h2 class="text-2xl text-tittle1 font-bold sm:text-3xl dark:text-gray-200">
+                        Sofware totalmente personalizado para satisfaces sus necesidades
+                    </h2>
+
+                    <!-- Tab Navs -->
+                    <nav class="grid gap-4 mt-5 md:mt-10" aria-label="Tabs" role="tablist">
+                        <button data-aos="fade-right" type="button"
+                            class="hs-tab-active:bg-hoverbg hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-800 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600 active"
+                            id="tabs-with-card-item-1" data-hs-tab="#tabs-with-card-1" aria-controls="tabs-with-card-1"
+                            role="tab">
+                            <span class="flex">
+                                <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-talprimary text-tittle1"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24 logoclient"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z" />
+                                    <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z" />
+                                    <path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z" />
+                                    <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z" />
+                                    <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z" />
+                                </svg>
+                                <span class="grow ms-6">
+                                    <span
+                                        class="block text-lg font-semibold hs-tab-active:text-talprimary text-tittle1">Herramientas
+                                        avanzadas</span>
+                                    <span
+                                        class="block mt-1  hs-tab-active:text-secondarytxt text-primarytxt">Automatizamos
+                                        cuidadozamente tus requerimientos, para asi brindarte el mejor servicio.</span>
+                                </span>
+                            </span>
+                        </button>
+
+                        <button data-aos="fade-left" type="button"
+                            class="hs-tab-active:bg-hoverbg hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-800 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                            id="tabs-with-card-item-2" data-hs-tab="#tabs-with-card-2" aria-controls="tabs-with-card-2"
+                            role="tab">
+                            <span class="flex">
+                                <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-talprimary text-tittle1"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24 logoclient"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="m12 14 4-4" />
+                                    <path d="M3.34 19a10 10 0 1 1 17.32 0" />
+                                </svg>
+                                <span class="grow ms-6">
+                                    <span
+                                        class="block text-lg font-semibold hs-tab-active:text-talprimary text-tittle1">Paneles
+                                        inteligentes</span>
+                                    <span class="block mt-1  hs-tab-active:text-secondarytxt text-primarytxt">Nuestros
+                                        paneles son rapidos y sencillos de manejas, ajustandose a su medida para cada
+                                        usuario.</span>
+                                </span>
+                            </span>
+                        </button>
+
+                        <button data-aos="fade-right" type="button"
+                            class="hs-tab-active:bg-hoverbg hs-tab-active:shadow-md hs-tab-active:hover:border-transparent text-start hover:bg-gray-200 p-4 md:p-5 rounded-xl dark:hs-tab-active:bg-slate-800 dark:hover:bg-gray-700 dark:focus:outline-none dark:focus:ring-1 dark:focus:ring-gray-600"
+                            id="tabs-with-card-item-3" data-hs-tab="#tabs-with-card-3" aria-controls="tabs-with-card-3"
+                            role="tab">
+                            <span class="flex">
+                                <svg class="flex-shrink-0 mt-2 size-6 md:size-7 hs-tab-active:text-talprimary text-tittle1"
+                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24 logoclient"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round">
+                                    <path
+                                        d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z" />
+                                    <path d="M5 3v4" />
+                                    <path d="M19 17v4" />
+                                    <path d="M3 5h4" />
+                                    <path d="M17 19h4" />
+                                </svg>
+                                <span class="grow ms-6">
+                                    <span
+                                        class="block text-lg font-semibold hs-tab-active:text-talprimary text-tittle1">Funciones
+                                        potentes</span>
+                                    <span class="block mt-1  hs-tab-active:text-secondarytxt text-primarytxt">Reduzca
+                                        el tiempo y el esfuerzo en tareas cotidianas y llevar tu negocio a otro
+                                        nivel.</span>
+                                </span>
+                            </span>
+                        </button>
+                    </nav>
+                    <!-- End Tab Navs -->
+                </div>
+                <!-- End Col -->
+
+                <div data-aos="zoom-in" class="lg:col-span-6">
+                    <div class="relative">
+                        <!-- Tab Content -->
+                        <div>
+                            <div id="tabs-with-card-1" role="tabpanel" aria-labelledby="tabs-with-card-item-1">
+                                <img class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                                    src="https://images.unsplash.com/photo-1605629921711-2f6b00c6bbf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
+                                    alt="Image Description">
+                            </div>
+
+                            <div id="tabs-with-card-2" class="hidden" role="tabpanel"
+                                aria-labelledby="tabs-with-card-item-2">
+                                <img class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                                    src="https://images.unsplash.com/photo-1665686306574-1ace09918530?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
+                                    alt="Image Description">
+                            </div>
+
+                            <div id="tabs-with-card-3" class="hidden" role="tabpanel"
+                                aria-labelledby="tabs-with-card-item-3">
+                                <img class="shadow-xl shadow-gray-200 rounded-xl dark:shadow-gray-900/[.2]"
+                                    src="https://images.unsplash.com/photo-1598929213452-52d72f63e307?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&h=1220&q=80"
+                                    alt="Image Description">
+                            </div>
+                        </div>
+                        <!-- End Tab Content -->
+
+                        <!-- SVG Element -->
+                        <div class="hidden absolute top-0 end-0 translate-x-20 md:block lg:translate-x-20">
+                            <svg class="w-16 h-auto text-orange-500" width="121" height="135 logoclient"
+                                viewBox="0 0 121 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 16.4754C11.7688 27.4499 21.2452 57.3224 5 89.0164" stroke="currentColor"
+                                    stroke-width="10" stroke-linecap="round" />
+                                <path d="M33.6761 112.104C44.6984 98.1239 74.2618 57.6776 83.4821 5"
+                                    stroke="currentColor" stroke-width="10" stroke-linecap="round" />
+                                <path d="M50.5525 130C68.2064 127.495 110.731 117.541 116 78.0874" stroke="currentColor"
+                                    stroke-width="10" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <!-- End SVG Element -->
+                    </div>
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Grid -->
+
+            <!-- Background Color -->
+            <div class="absolute inset-0 grid grid-cols-12 size-full ">
+                <div
+                    class="bg-bggreym col-span-full lg:col-span-7 lg:col-start-6 bg-gray-100 w-full h-5/6 rounded-xl sm:h-3/4 lg:h-full ">
+                </div>
+            </div>
+            <!-- End Background Color -->
+        </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- ====== Portfolio Section Start -->
+    <section style="overflow: hidden;" class="bg-black dark:bg-gray-900 py-5" x-data="
+{
+showCards: 'all',
+activeClasses: 'bg-primary text-white',
+inactiveClasses: 'text-body-color dark:text-dark-6 hover:bg-primary hover:text-white',
+}
+" class="pt-20 pb-12 lg:pt-[120px] lg:pb-[90px] dark:bg-dark">
+        <div class="container mx-auto">
+            <div class="-mx-4 flex flex-wrap">
+                <div class="w-full px-4">
+                    <div data-aos="zoom-in-up" class="mx-auto mb-[60px] max-w-[510px] text-center">
+                        <!-- <span class="text-primary mb-2 block text-lg font-semibold">
+                            Our Portfolio
+                        </span> -->
+                        <h2 class="text-white mb-3 text-3xl leading-[1.208] font-bold sm:text-4xl md:text-[40px]">
+                            Nuestros Proyectos
+                        </h2>
+                        <h4 class="text-tertiary  dark:text-dark-6">
+                            Todos nuestros softwares
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="-mx-4 flex flex-wrap justify-center">
+                <div class="w-full px-4">
+                    <ul class="mb-12 flex flex-wrap justify-center space-x-1">
+                        <li class="mb-1">
+                            <button @click="showCards = 'all' "
+                                :class="showCards == 'all' ? activeClasses : inactiveClasses "
+                                class="inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                Todos
+                            </button>
+                        </li>
+                        <li class="mb-1">
+                            <button @click="showCards = 'branding' "
+                                :class="showCards == 'branding' ? activeClasses : inactiveClasses "
+                                class="inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                Hoteleria
+                            </button>
+                        </li>
+                        <li class="mb-1">
+                            <button @click="showCards = 'design' "
+                                :class="showCards == 'design' ? activeClasses : inactiveClasses "
+                                class="inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                Gestión
+                            </button>
+                        </li>
+                        <li class="mb-1">
+                            <button @click="showCards = 'marketing' "
+                                :class="showCards == 'marketing' ? activeClasses : inactiveClasses "
+                                class="inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                Marketing
+                            </button>
+                        </li>
+                        <li class="mb-1">
+                            <button @click="showCards = 'development' "
+                                :class="showCards == 'development' ? activeClasses : inactiveClasses "
+                                class="inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                Development
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div> -->
+            <div class="-mx-4 flex flex-wrap">
+                <div data-aos="fade-right" :class="showCards == 'all' || showCards == 'branding' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="cover-img overflow-hidden rounded-[10px]">
+                            <img src="./images/index/hoteleria.jpg" alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="relative z-10 mx-7 -mt-20 rounded-lg bg-bgprimary py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
+                            <!-- <span class="text-primary mb-2 block text-sm font-medium">
+                                Hoteleria
+                            </span> -->
+                            <h3 class="text-dark dark:text-white mb-4 text-xl font-bold">
+                                Hoteleria
+                            </h3>
+                            <a href="javascript:void(0)"
+                                class="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" :class="showCards == 'all' || showCards == 'marketing' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="cover-img overflow-hidden rounded-[10px]">
+                            <img src="./images/index/inventario.jpg" alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="relative z-10 mx-7 -mt-20 rounded-lg bg-bgprimary dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
+                            <!-- <span class="text-primary mb-2 block text-sm font-medium">
+                                Marketing
+                            </span> -->
+                            <h3 class="text-dark dark:text-white mb-4 text-xl font-bold">
+                                Sistema de inventario
+                            </h3>
+                            <a href="javascript:void(0)"
+                                class="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-left"
+                    :class="showCards == 'all' || showCards == 'development' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="cover-img overflow-hidden rounded-[10px]">
+                            <img src="./images/index/restaurant.jpg" alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="relative z-10 mx-7 -mt-20 rounded-lg bg-bgprimary dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
+                            <!-- <span class="text-primary mb-2 block text-sm font-medium">
+                                Development
+                            </span> -->
+                            <h3 class="text-dark dark:text-white mb-4 text-xl font-bold">
+                                Restaurantes
+                            </h3>
+                            <a href="javascript:void(0)"
+                                class="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-right" :class="showCards == 'all' || showCards == 'design' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="cover-img overflow-hidden rounded-[10px]">
+                            <img src="./images/index/chatbot.png" alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="relative z-10 mx-7 -mt-20 rounded-lg bg-bgprimary dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
+                            <!-- <span class="text-primary mb-2 block text-sm font-medium">
+                                Design
+                            </span> -->
+                            <h3 class="text-dark dark:text-white mb-4 text-xl font-bold">
+                                WhatsApp ChatBot IA
+                            </h3>
+                            <a href="javascript:void(0)"
+                                class="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up" :class="showCards == 'all' || showCards == 'marketing' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="cover-img overflow-hidden rounded-[10px]">
+                            <img src="./images/index/ecommerce.jpg" alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="relative z-10 mx-7 -mt-20 rounded-lg bg-bgprimary dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
+                            <!-- <span class="text-primary mb-2 block text-sm font-medium">
+                                Marketing
+                            </span> -->
+                            <h3 class="text-dark dark:text-white mb-4 text-xl font-bold">
+                                E-Commerce
+                            </h3>
+                            <a href="javascript:void(0)"
+                                class="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white">
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div :class="showCards == 'all' || showCards == 'branding' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="overflow-hidden rounded-[10px]">
+                            <img src="https://cdn.tailgrids.com/2.0/image/marketing/images/portfolio/portfolio-01/image-06.jpg"
+                                alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="relative z-10 mx-7 -mt-20 rounded-lg bg-white dark:bg-dark-2 py-[34px] px-3 text-center shadow-portfolio dark:shadow-box-dark">
+                            <span class="text-primary mb-2 block text-sm font-medium">
+                                Branding
+                            </span>
+                            <h3 class="text-dark dark:text-white mb-5 text-xl font-bold">
+                                Creative Agency
+                            </h3>
+                            <a href="javascript:void(0)"
+                                class="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- ====== Portfolio Section End -->
+
+    <!-- <section class="bg-black dark:bg-gray-900">
+        <div class="container px-6 py-10 mx-auto">
+            <h1 class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">Nuestro Software</h1>
+
+            <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 lg:grid-cols-2">
+                <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+                    style="background-image:url('https://images.unsplash.com/photo-1621111848501-8d3634f82336?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1565&q=80')">
+                    <div
+                        class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+                        <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Hoteleria</h2>
+                        <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">xd</p>
+                    </div>
+                </div>
+
+                <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+                    style="background-image:url('https://images.unsplash.com/photo-1621609764180-2ca554a9d6f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80')">
+                    <div
+                        class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+                        <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Sistema de inventario</h2>
+                        <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Ui kit</p>
+                    </div>
+                </div>
+
+                <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+                    style="background-image:url('https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')">
+                    <div
+                        class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+                        <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">Restaurantes</h2>
+                        <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Mockups</p>
+                    </div>
+                </div>
+
+                <div class="flex items-end overflow-hidden bg-cover rounded-lg h-96"
+                    style="background-image:url('https://images.unsplash.com/photo-1603380353725-f8a4d39cc41e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')">
+                    <div
+                        class="w-full px-8 py-4 overflow-hidden rounded-b-lg backdrop-blur-sm bg-white/60 dark:bg-gray-800/60">
+                        <h2 class="mt-4 text-xl font-semibold text-gray-800 capitalize dark:text-white">ChatBot IA</h2>
+                        <p class="mt-2 text-lg tracking-wider text-blue-500 uppercase dark:text-blue-400 ">Animation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section data-aos="fade-up" class="bg-black ">
+        <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+            <h2
+                class="mb-8 lg:mb-16 text-3xl font-extrabold tracking-tight leading-tight text-center text-tittle1 dark:text-white md:text-4xl">
+                Nuestros clientes</h2>
+            <div data-aos="zoom-in"
+                class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-6 dark:text-gray-400">
+                <a href="https://www.triangularco.com/" class="flex justify-center items-center">
+                    <img class="text-talprimary hover:text-talhoverpri logoclient" viewBox="0 0 86 29"
+                        fill="currentColor" src="./images/logos/triangularcow.png">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.6008 10.2627V13.2312L18.6907 13.2281C18.4733 14.8653 17.9215 16.0641 17.0826 16.9031C16.0487 17.9378 14.4351 19.0766 11.6008 19.0766C7.23238 19.0766 3.81427 15.5531 3.81427 11.1808C3.81427 6.80853 7.23238 3.28487 11.6008 3.28487C13.9585 3.28487 15.6794 4.21232 16.9503 5.40473L19.0432 3.31011C17.2721 1.6161 14.9144 0.316406 11.6036 0.316406C5.62156 0.316406 0.589844 5.19338 0.589844 11.1808C0.589844 17.1682 5.62156 22.0451 11.6036 22.0451C14.8322 22.0451 17.2694 20.9852 19.1756 18.9979C21.1362 17.0356 21.7451 14.2818 21.7451 12.0546C21.7451 11.3921 21.6949 10.7802 21.5974 10.2627H11.6008ZM71.4046 21.6192V1.11445H68.4101V21.6192H71.4046ZM29.9511 22.0482C33.8151 22.0482 36.9643 19.0797 36.9643 15.0513C36.9643 10.9945 33.8151 8.05451 29.9511 8.05451C26.0857 8.05451 22.9365 10.9945 22.9365 15.0513C22.9365 19.0797 26.0857 22.0482 29.9511 22.0482ZM29.9511 10.8116C32.0691 10.8116 33.8945 12.534 33.8945 15.0513C33.8945 17.5404 32.0691 19.2911 29.9511 19.2911C27.833 19.2911 26.0076 17.5435 26.0076 15.0513C26.0076 12.534 27.833 10.8116 29.9511 10.8116ZM45.0825 22.0482C48.9465 22.0482 52.0957 19.0797 52.0957 15.0513C52.0957 10.9945 48.9465 8.05451 45.0825 8.05451C41.2171 8.05451 38.0679 10.9977 38.0679 15.0513C38.0679 19.0797 41.2171 22.0482 45.0825 22.0482ZM45.0825 10.8116C47.2005 10.8116 49.0259 12.534 49.0259 15.0513C49.0259 17.5404 47.2005 19.2911 45.0825 19.2911C42.9644 19.2911 41.139 17.5435 41.139 15.0513C41.139 12.534 42.9644 10.8116 45.0825 10.8116ZM66.5972 8.48038V21.0387C66.5972 26.2059 63.5512 28.3164 59.9519 28.3164C56.563 28.3164 54.523 26.0482 53.7539 24.1934L56.4265 23.0798C56.903 24.2186 58.0694 25.5624 59.9477 25.5624C62.2525 25.5624 63.6807 24.1397 63.6807 21.4615V20.4552H63.5734C62.8865 21.3037 61.5627 22.0451 59.892 22.0451C56.3958 22.0451 53.1923 18.9977 53.1923 15.0766C53.1923 11.1271 56.3958 8.05451 59.892 8.05451C61.5585 8.05451 62.8837 8.79579 63.5734 9.6192H63.6807V8.48038H66.5972ZM63.8981 15.0766C63.8981 12.6129 62.2553 10.8116 60.1651 10.8116C58.0471 10.8116 56.2732 12.6129 56.2732 15.0766C56.2732 17.5152 58.0471 19.2911 60.1651 19.2911C62.2553 19.2911 63.8981 17.5152 63.8981 15.0766ZM83.0747 17.3542L85.4575 18.9442C84.6883 20.083 82.835 22.0451 79.6315 22.0451C75.6602 22.0451 72.6935 18.9726 72.6935 15.0483C72.6935 10.8874 75.6853 8.05143 79.2887 8.05143C82.9172 8.05143 84.6911 10.941 85.2721 12.5026L85.5898 13.2976L76.2426 17.1713C76.9589 18.5751 78.0708 19.2912 79.6315 19.2912C81.1949 19.2912 82.2804 18.5215 83.0747 17.3542ZM75.7382 14.8369L81.9864 12.2407C81.6436 11.3668 80.6097 10.758 79.3918 10.758C77.8326 10.758 75.6602 12.1366 75.7382 14.8369Z"
+                        fill="currentColor" />
+                    </img>
+                </a>
+                <a href="https://demos.microsdata.com/" class="flex justify-center items-center">
+                    <img class="text-talprimary hover:text-talhoverpri logoclient" viewBox="0 0 86 29"
+                        fill="currentColor" src="./images/logos/GtOfdd8bWBOmzxbGLi0reIOmpheRniOfHRyzHutF.png"
+                        style="filter: grayscale(100%);">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.6008 10.2627V13.2312L18.6907 13.2281C18.4733 14.8653 17.9215 16.0641 17.0826 16.9031C16.0487 17.9378 14.4351 19.0766 11.6008 19.0766C7.23238 19.0766 3.81427 15.5531 3.81427 11.1808C3.81427 6.80853 7.23238 3.28487 11.6008 3.28487C13.9585 3.28487 15.6794 4.21232 16.9503 5.40473L19.0432 3.31011C17.2721 1.6161 14.9144 0.316406 11.6036 0.316406C5.62156 0.316406 0.589844 5.19338 0.589844 11.1808C0.589844 17.1682 5.62156 22.0451 11.6036 22.0451C14.8322 22.0451 17.2694 20.9852 19.1756 18.9979C21.1362 17.0356 21.7451 14.2818 21.7451 12.0546C21.7451 11.3921 21.6949 10.7802 21.5974 10.2627H11.6008ZM71.4046 21.6192V1.11445H68.4101V21.6192H71.4046ZM29.9511 22.0482C33.8151 22.0482 36.9643 19.0797 36.9643 15.0513C36.9643 10.9945 33.8151 8.05451 29.9511 8.05451C26.0857 8.05451 22.9365 10.9945 22.9365 15.0513C22.9365 19.0797 26.0857 22.0482 29.9511 22.0482ZM29.9511 10.8116C32.0691 10.8116 33.8945 12.534 33.8945 15.0513C33.8945 17.5404 32.0691 19.2911 29.9511 19.2911C27.833 19.2911 26.0076 17.5435 26.0076 15.0513C26.0076 12.534 27.833 10.8116 29.9511 10.8116ZM45.0825 22.0482C48.9465 22.0482 52.0957 19.0797 52.0957 15.0513C52.0957 10.9945 48.9465 8.05451 45.0825 8.05451C41.2171 8.05451 38.0679 10.9977 38.0679 15.0513C38.0679 19.0797 41.2171 22.0482 45.0825 22.0482ZM45.0825 10.8116C47.2005 10.8116 49.0259 12.534 49.0259 15.0513C49.0259 17.5404 47.2005 19.2911 45.0825 19.2911C42.9644 19.2911 41.139 17.5435 41.139 15.0513C41.139 12.534 42.9644 10.8116 45.0825 10.8116ZM66.5972 8.48038V21.0387C66.5972 26.2059 63.5512 28.3164 59.9519 28.3164C56.563 28.3164 54.523 26.0482 53.7539 24.1934L56.4265 23.0798C56.903 24.2186 58.0694 25.5624 59.9477 25.5624C62.2525 25.5624 63.6807 24.1397 63.6807 21.4615V20.4552H63.5734C62.8865 21.3037 61.5627 22.0451 59.892 22.0451C56.3958 22.0451 53.1923 18.9977 53.1923 15.0766C53.1923 11.1271 56.3958 8.05451 59.892 8.05451C61.5585 8.05451 62.8837 8.79579 63.5734 9.6192H63.6807V8.48038H66.5972ZM63.8981 15.0766C63.8981 12.6129 62.2553 10.8116 60.1651 10.8116C58.0471 10.8116 56.2732 12.6129 56.2732 15.0766C56.2732 17.5152 58.0471 19.2911 60.1651 19.2911C62.2553 19.2911 63.8981 17.5152 63.8981 15.0766ZM83.0747 17.3542L85.4575 18.9442C84.6883 20.083 82.835 22.0451 79.6315 22.0451C75.6602 22.0451 72.6935 18.9726 72.6935 15.0483C72.6935 10.8874 75.6853 8.05143 79.2887 8.05143C82.9172 8.05143 84.6911 10.941 85.2721 12.5026L85.5898 13.2976L76.2426 17.1713C76.9589 18.5751 78.0708 19.2912 79.6315 19.2912C81.1949 19.2912 82.2804 18.5215 83.0747 17.3542ZM75.7382 14.8369L81.9864 12.2407C81.6436 11.3668 80.6097 10.758 79.3918 10.758C77.8326 10.758 75.6602 12.1366 75.7382 14.8369Z"
+                        fill="currentColor" />
+                    </img>
+                </a>
+                <a href="https://hotelplazuelareal.com/" class="flex justify-center items-center">
+                    <img class="text-talprimary hover:text-talhoverpri logoclient" viewBox="0 0 86 29"
+                        fill="currentColor" src="./images/logos/plazuelaw.png">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.6008 10.2627V13.2312L18.6907 13.2281C18.4733 14.8653 17.9215 16.0641 17.0826 16.9031C16.0487 17.9378 14.4351 19.0766 11.6008 19.0766C7.23238 19.0766 3.81427 15.5531 3.81427 11.1808C3.81427 6.80853 7.23238 3.28487 11.6008 3.28487C13.9585 3.28487 15.6794 4.21232 16.9503 5.40473L19.0432 3.31011C17.2721 1.6161 14.9144 0.316406 11.6036 0.316406C5.62156 0.316406 0.589844 5.19338 0.589844 11.1808C0.589844 17.1682 5.62156 22.0451 11.6036 22.0451C14.8322 22.0451 17.2694 20.9852 19.1756 18.9979C21.1362 17.0356 21.7451 14.2818 21.7451 12.0546C21.7451 11.3921 21.6949 10.7802 21.5974 10.2627H11.6008ZM71.4046 21.6192V1.11445H68.4101V21.6192H71.4046ZM29.9511 22.0482C33.8151 22.0482 36.9643 19.0797 36.9643 15.0513C36.9643 10.9945 33.8151 8.05451 29.9511 8.05451C26.0857 8.05451 22.9365 10.9945 22.9365 15.0513C22.9365 19.0797 26.0857 22.0482 29.9511 22.0482ZM29.9511 10.8116C32.0691 10.8116 33.8945 12.534 33.8945 15.0513C33.8945 17.5404 32.0691 19.2911 29.9511 19.2911C27.833 19.2911 26.0076 17.5435 26.0076 15.0513C26.0076 12.534 27.833 10.8116 29.9511 10.8116ZM45.0825 22.0482C48.9465 22.0482 52.0957 19.0797 52.0957 15.0513C52.0957 10.9945 48.9465 8.05451 45.0825 8.05451C41.2171 8.05451 38.0679 10.9977 38.0679 15.0513C38.0679 19.0797 41.2171 22.0482 45.0825 22.0482ZM45.0825 10.8116C47.2005 10.8116 49.0259 12.534 49.0259 15.0513C49.0259 17.5404 47.2005 19.2911 45.0825 19.2911C42.9644 19.2911 41.139 17.5435 41.139 15.0513C41.139 12.534 42.9644 10.8116 45.0825 10.8116ZM66.5972 8.48038V21.0387C66.5972 26.2059 63.5512 28.3164 59.9519 28.3164C56.563 28.3164 54.523 26.0482 53.7539 24.1934L56.4265 23.0798C56.903 24.2186 58.0694 25.5624 59.9477 25.5624C62.2525 25.5624 63.6807 24.1397 63.6807 21.4615V20.4552H63.5734C62.8865 21.3037 61.5627 22.0451 59.892 22.0451C56.3958 22.0451 53.1923 18.9977 53.1923 15.0766C53.1923 11.1271 56.3958 8.05451 59.892 8.05451C61.5585 8.05451 62.8837 8.79579 63.5734 9.6192H63.6807V8.48038H66.5972ZM63.8981 15.0766C63.8981 12.6129 62.2553 10.8116 60.1651 10.8116C58.0471 10.8116 56.2732 12.6129 56.2732 15.0766C56.2732 17.5152 58.0471 19.2911 60.1651 19.2911C62.2553 19.2911 63.8981 17.5152 63.8981 15.0766ZM83.0747 17.3542L85.4575 18.9442C84.6883 20.083 82.835 22.0451 79.6315 22.0451C75.6602 22.0451 72.6935 18.9726 72.6935 15.0483C72.6935 10.8874 75.6853 8.05143 79.2887 8.05143C82.9172 8.05143 84.6911 10.941 85.2721 12.5026L85.5898 13.2976L76.2426 17.1713C76.9589 18.5751 78.0708 19.2912 79.6315 19.2912C81.1949 19.2912 82.2804 18.5215 83.0747 17.3542ZM75.7382 14.8369L81.9864 12.2407C81.6436 11.3668 80.6097 10.758 79.3918 10.758C77.8326 10.758 75.6602 12.1366 75.7382 14.8369Z"
+                        fill="currentColor" />
+                    </img>
+                </a>
+                <a href="https://hotelbacataplaza.com/" class="flex justify-center items-center">
+                    <img class="text-talprimary hover:text-talhoverpri logoclient" viewBox="0 0 86 29"
+                        fill="currentColor" src="./images/logos/bacata.png" style="filter: grayscale(100%);">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.6008 10.2627V13.2312L18.6907 13.2281C18.4733 14.8653 17.9215 16.0641 17.0826 16.9031C16.0487 17.9378 14.4351 19.0766 11.6008 19.0766C7.23238 19.0766 3.81427 15.5531 3.81427 11.1808C3.81427 6.80853 7.23238 3.28487 11.6008 3.28487C13.9585 3.28487 15.6794 4.21232 16.9503 5.40473L19.0432 3.31011C17.2721 1.6161 14.9144 0.316406 11.6036 0.316406C5.62156 0.316406 0.589844 5.19338 0.589844 11.1808C0.589844 17.1682 5.62156 22.0451 11.6036 22.0451C14.8322 22.0451 17.2694 20.9852 19.1756 18.9979C21.1362 17.0356 21.7451 14.2818 21.7451 12.0546C21.7451 11.3921 21.6949 10.7802 21.5974 10.2627H11.6008ZM71.4046 21.6192V1.11445H68.4101V21.6192H71.4046ZM29.9511 22.0482C33.8151 22.0482 36.9643 19.0797 36.9643 15.0513C36.9643 10.9945 33.8151 8.05451 29.9511 8.05451C26.0857 8.05451 22.9365 10.9945 22.9365 15.0513C22.9365 19.0797 26.0857 22.0482 29.9511 22.0482ZM29.9511 10.8116C32.0691 10.8116 33.8945 12.534 33.8945 15.0513C33.8945 17.5404 32.0691 19.2911 29.9511 19.2911C27.833 19.2911 26.0076 17.5435 26.0076 15.0513C26.0076 12.534 27.833 10.8116 29.9511 10.8116ZM45.0825 22.0482C48.9465 22.0482 52.0957 19.0797 52.0957 15.0513C52.0957 10.9945 48.9465 8.05451 45.0825 8.05451C41.2171 8.05451 38.0679 10.9977 38.0679 15.0513C38.0679 19.0797 41.2171 22.0482 45.0825 22.0482ZM45.0825 10.8116C47.2005 10.8116 49.0259 12.534 49.0259 15.0513C49.0259 17.5404 47.2005 19.2911 45.0825 19.2911C42.9644 19.2911 41.139 17.5435 41.139 15.0513C41.139 12.534 42.9644 10.8116 45.0825 10.8116ZM66.5972 8.48038V21.0387C66.5972 26.2059 63.5512 28.3164 59.9519 28.3164C56.563 28.3164 54.523 26.0482 53.7539 24.1934L56.4265 23.0798C56.903 24.2186 58.0694 25.5624 59.9477 25.5624C62.2525 25.5624 63.6807 24.1397 63.6807 21.4615V20.4552H63.5734C62.8865 21.3037 61.5627 22.0451 59.892 22.0451C56.3958 22.0451 53.1923 18.9977 53.1923 15.0766C53.1923 11.1271 56.3958 8.05451 59.892 8.05451C61.5585 8.05451 62.8837 8.79579 63.5734 9.6192H63.6807V8.48038H66.5972ZM63.8981 15.0766C63.8981 12.6129 62.2553 10.8116 60.1651 10.8116C58.0471 10.8116 56.2732 12.6129 56.2732 15.0766C56.2732 17.5152 58.0471 19.2911 60.1651 19.2911C62.2553 19.2911 63.8981 17.5152 63.8981 15.0766ZM83.0747 17.3542L85.4575 18.9442C84.6883 20.083 82.835 22.0451 79.6315 22.0451C75.6602 22.0451 72.6935 18.9726 72.6935 15.0483C72.6935 10.8874 75.6853 8.05143 79.2887 8.05143C82.9172 8.05143 84.6911 10.941 85.2721 12.5026L85.5898 13.2976L76.2426 17.1713C76.9589 18.5751 78.0708 19.2912 79.6315 19.2912C81.1949 19.2912 82.2804 18.5215 83.0747 17.3542ZM75.7382 14.8369L81.9864 12.2407C81.6436 11.3668 80.6097 10.758 79.3918 10.758C77.8326 10.758 75.6602 12.1366 75.7382 14.8369Z"
+                        fill="currentColor" />
+                    </img>
+                </a>
+                <a href="https://montacolcorpsas.com.co/" class="flex justify-center items-center">
+                    <img class="text-talprimary hover:text-talhoverpri logoclient" viewBox="0 0 86 29"
+                        fill="currentColor" src="./images/logos/montacol.png">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.6008 10.2627V13.2312L18.6907 13.2281C18.4733 14.8653 17.9215 16.0641 17.0826 16.9031C16.0487 17.9378 14.4351 19.0766 11.6008 19.0766C7.23238 19.0766 3.81427 15.5531 3.81427 11.1808C3.81427 6.80853 7.23238 3.28487 11.6008 3.28487C13.9585 3.28487 15.6794 4.21232 16.9503 5.40473L19.0432 3.31011C17.2721 1.6161 14.9144 0.316406 11.6036 0.316406C5.62156 0.316406 0.589844 5.19338 0.589844 11.1808C0.589844 17.1682 5.62156 22.0451 11.6036 22.0451C14.8322 22.0451 17.2694 20.9852 19.1756 18.9979C21.1362 17.0356 21.7451 14.2818 21.7451 12.0546C21.7451 11.3921 21.6949 10.7802 21.5974 10.2627H11.6008ZM71.4046 21.6192V1.11445H68.4101V21.6192H71.4046ZM29.9511 22.0482C33.8151 22.0482 36.9643 19.0797 36.9643 15.0513C36.9643 10.9945 33.8151 8.05451 29.9511 8.05451C26.0857 8.05451 22.9365 10.9945 22.9365 15.0513C22.9365 19.0797 26.0857 22.0482 29.9511 22.0482ZM29.9511 10.8116C32.0691 10.8116 33.8945 12.534 33.8945 15.0513C33.8945 17.5404 32.0691 19.2911 29.9511 19.2911C27.833 19.2911 26.0076 17.5435 26.0076 15.0513C26.0076 12.534 27.833 10.8116 29.9511 10.8116ZM45.0825 22.0482C48.9465 22.0482 52.0957 19.0797 52.0957 15.0513C52.0957 10.9945 48.9465 8.05451 45.0825 8.05451C41.2171 8.05451 38.0679 10.9977 38.0679 15.0513C38.0679 19.0797 41.2171 22.0482 45.0825 22.0482ZM45.0825 10.8116C47.2005 10.8116 49.0259 12.534 49.0259 15.0513C49.0259 17.5404 47.2005 19.2911 45.0825 19.2911C42.9644 19.2911 41.139 17.5435 41.139 15.0513C41.139 12.534 42.9644 10.8116 45.0825 10.8116ZM66.5972 8.48038V21.0387C66.5972 26.2059 63.5512 28.3164 59.9519 28.3164C56.563 28.3164 54.523 26.0482 53.7539 24.1934L56.4265 23.0798C56.903 24.2186 58.0694 25.5624 59.9477 25.5624C62.2525 25.5624 63.6807 24.1397 63.6807 21.4615V20.4552H63.5734C62.8865 21.3037 61.5627 22.0451 59.892 22.0451C56.3958 22.0451 53.1923 18.9977 53.1923 15.0766C53.1923 11.1271 56.3958 8.05451 59.892 8.05451C61.5585 8.05451 62.8837 8.79579 63.5734 9.6192H63.6807V8.48038H66.5972ZM63.8981 15.0766C63.8981 12.6129 62.2553 10.8116 60.1651 10.8116C58.0471 10.8116 56.2732 12.6129 56.2732 15.0766C56.2732 17.5152 58.0471 19.2911 60.1651 19.2911C62.2553 19.2911 63.8981 17.5152 63.8981 15.0766ZM83.0747 17.3542L85.4575 18.9442C84.6883 20.083 82.835 22.0451 79.6315 22.0451C75.6602 22.0451 72.6935 18.9726 72.6935 15.0483C72.6935 10.8874 75.6853 8.05143 79.2887 8.05143C82.9172 8.05143 84.6911 10.941 85.2721 12.5026L85.5898 13.2976L76.2426 17.1713C76.9589 18.5751 78.0708 19.2912 79.6315 19.2912C81.1949 19.2912 82.2804 18.5215 83.0747 17.3542ZM75.7382 14.8369L81.9864 12.2407C81.6436 11.3668 80.6097 10.758 79.3918 10.758C77.8326 10.758 75.6602 12.1366 75.7382 14.8369Z"
+                        fill="currentColor" />
+                    </img>
+                </a>
+
+                <a href="#" class="flex justify-center items-center">
+                    <img class="text-talprimary hover:text-talhoverpri logoclient" viewBox="0 0 86 29"
+                        fill="currentColor" src="./images/logos/k-otica.png">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M11.6008 10.2627V13.2312L18.6907 13.2281C18.4733 14.8653 17.9215 16.0641 17.0826 16.9031C16.0487 17.9378 14.4351 19.0766 11.6008 19.0766C7.23238 19.0766 3.81427 15.5531 3.81427 11.1808C3.81427 6.80853 7.23238 3.28487 11.6008 3.28487C13.9585 3.28487 15.6794 4.21232 16.9503 5.40473L19.0432 3.31011C17.2721 1.6161 14.9144 0.316406 11.6036 0.316406C5.62156 0.316406 0.589844 5.19338 0.589844 11.1808C0.589844 17.1682 5.62156 22.0451 11.6036 22.0451C14.8322 22.0451 17.2694 20.9852 19.1756 18.9979C21.1362 17.0356 21.7451 14.2818 21.7451 12.0546C21.7451 11.3921 21.6949 10.7802 21.5974 10.2627H11.6008ZM71.4046 21.6192V1.11445H68.4101V21.6192H71.4046ZM29.9511 22.0482C33.8151 22.0482 36.9643 19.0797 36.9643 15.0513C36.9643 10.9945 33.8151 8.05451 29.9511 8.05451C26.0857 8.05451 22.9365 10.9945 22.9365 15.0513C22.9365 19.0797 26.0857 22.0482 29.9511 22.0482ZM29.9511 10.8116C32.0691 10.8116 33.8945 12.534 33.8945 15.0513C33.8945 17.5404 32.0691 19.2911 29.9511 19.2911C27.833 19.2911 26.0076 17.5435 26.0076 15.0513C26.0076 12.534 27.833 10.8116 29.9511 10.8116ZM45.0825 22.0482C48.9465 22.0482 52.0957 19.0797 52.0957 15.0513C52.0957 10.9945 48.9465 8.05451 45.0825 8.05451C41.2171 8.05451 38.0679 10.9977 38.0679 15.0513C38.0679 19.0797 41.2171 22.0482 45.0825 22.0482ZM45.0825 10.8116C47.2005 10.8116 49.0259 12.534 49.0259 15.0513C49.0259 17.5404 47.2005 19.2911 45.0825 19.2911C42.9644 19.2911 41.139 17.5435 41.139 15.0513C41.139 12.534 42.9644 10.8116 45.0825 10.8116ZM66.5972 8.48038V21.0387C66.5972 26.2059 63.5512 28.3164 59.9519 28.3164C56.563 28.3164 54.523 26.0482 53.7539 24.1934L56.4265 23.0798C56.903 24.2186 58.0694 25.5624 59.9477 25.5624C62.2525 25.5624 63.6807 24.1397 63.6807 21.4615V20.4552H63.5734C62.8865 21.3037 61.5627 22.0451 59.892 22.0451C56.3958 22.0451 53.1923 18.9977 53.1923 15.0766C53.1923 11.1271 56.3958 8.05451 59.892 8.05451C61.5585 8.05451 62.8837 8.79579 63.5734 9.6192H63.6807V8.48038H66.5972ZM63.8981 15.0766C63.8981 12.6129 62.2553 10.8116 60.1651 10.8116C58.0471 10.8116 56.2732 12.6129 56.2732 15.0766C56.2732 17.5152 58.0471 19.2911 60.1651 19.2911C62.2553 19.2911 63.8981 17.5152 63.8981 15.0766ZM83.0747 17.3542L85.4575 18.9442C84.6883 20.083 82.835 22.0451 79.6315 22.0451C75.6602 22.0451 72.6935 18.9726 72.6935 15.0483C72.6935 10.8874 75.6853 8.05143 79.2887 8.05143C82.9172 8.05143 84.6911 10.941 85.2721 12.5026L85.5898 13.2976L76.2426 17.1713C76.9589 18.5751 78.0708 19.2912 79.6315 19.2912C81.1949 19.2912 82.2804 18.5215 83.0747 17.3542ZM75.7382 14.8369L81.9864 12.2407C81.6436 11.3668 80.6097 10.758 79.3918 10.758C77.8326 10.758 75.6602 12.1366 75.7382 14.8369Z"
+                        fill="currentColor" />
+                    </img>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="flex flex-col mx-3 bg-bggreym  rounded-lg">
+            <div class="w-full draggable">
+                <div class="container flex flex-col mx-auto">
+                    <div class="flex flex-col items-center w-full my-20">
+                        <span class="mb-8">
+                            <img src="./images/logo1.png" width="200rem" alt="">
+                        </span>
+                        <div class="flex flex-col items-center gap-6 mb-8">
+                            <div
+                                class="flex flex-wrap items-center justify-center gap-5 lg:gap-12 gap-y-3 lg:flex-nowrap text-dark-grey-900">
+                                <a href="javascript:void(0)" class="text-talprimary hover:text-talhoverpri">Incio</a>
+                                <a href="javascript:void(0)" class="text-talprimary hover:text-talhoverpri">Nosotros</a>
+                                <a href="javascript:void(0)"
+                                    class="text-talprimary hover:text-talhoverpri">Servicios</a>
+                                <a href="javascript:void(0)" class="text-talprimary hover:text-talhoverpri">Contacto</a>
+
+                            </div>
+                            <div class="flex items-center gap-8">
+                                <a href="javascript:void(0)" class="text-talprimary hover:text-talhoverpri">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24 logoclient"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M13.6348 20.7273V12.766H16.3582L16.7668 9.66246H13.6348V7.68128C13.6348 6.78301 13.8881 6.17085 15.2029 6.17085L16.877 6.17017V3.39424C16.5875 3.35733 15.5937 3.27273 14.437 3.27273C12.0216 3.27273 10.368 4.71881 10.368 7.37391V9.66246H7.63636V12.766H10.368V20.7273H13.6348Z"
+                                            fill="currentColor" />
+                                        <mask id="mask0_3320_6483" style="mask-type:luminance"
+                                            maskUnits="userSpaceOnUse" x="7" y="3" width="10" height="18">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13.6348 20.7273V12.766H16.3582L16.7668 9.66246H13.6348V7.68128C13.6348 6.78301 13.8881 6.17085 15.2029 6.17085L16.877 6.17017V3.39424C16.5875 3.35733 15.5937 3.27273 14.437 3.27273C12.0216 3.27273 10.368 4.71881 10.368 7.37391V9.66246H7.63636V12.766H10.368V20.7273H13.6348Z"
+                                                fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask0_3320_6483)">
+                                        </g>
+                                    </svg>
+                                </a>
+                                <a href="javascript:void(0)" class="text-talprimary hover:text-talhoverpri">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24 logoclient"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M21.8182 6.14597C21.1356 6.44842 20.4032 6.65355 19.6337 6.74512C20.4194 6.27461 21.0208 5.5283 21.3059 4.64176C20.5689 5.07748 19.7553 5.39388 18.8885 5.56539C18.1943 4.82488 17.207 4.36364 16.1118 4.36364C14.0108 4.36364 12.3072 6.06718 12.3072 8.16706C12.3072 8.46488 12.3408 8.75576 12.4058 9.03391C9.24436 8.87512 6.44106 7.36048 4.56485 5.05894C4.23688 5.61985 4.0503 6.27342 4.0503 6.97109C4.0503 8.29106 4.72246 9.45573 5.74227 10.1371C5.11879 10.1163 4.53239 9.94476 4.01903 9.65967V9.70718C4.01903 11.5498 5.33088 13.0876 7.07033 13.4376C6.75164 13.5234 6.41558 13.5709 6.06791 13.5709C5.82224 13.5709 5.58467 13.5465 5.35173 13.5002C5.83612 15.0125 7.2407 16.1123 8.90485 16.1424C7.60343 17.1622 5.96246 17.7683 4.18012 17.7683C3.87303 17.7683 3.57055 17.7498 3.27273 17.7162C4.95658 18.7974 6.95564 19.4278 9.10418 19.4278C16.1026 19.4278 19.9281 13.6312 19.9281 8.60397L19.9153 8.11145C20.6628 7.57833 21.3094 6.90851 21.8182 6.14597Z"
+                                            fill="currentColor" />
+                                        <mask id="mask0_3320_6484" style="mask-type:luminance"
+                                            maskUnits="userSpaceOnUse" x="3" y="4" width="19" height="16">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M21.8182 6.14597C21.1356 6.44842 20.4032 6.65355 19.6337 6.74512C20.4194 6.27461 21.0208 5.5283 21.3059 4.64176C20.5689 5.07748 19.7553 5.39388 18.8885 5.56539C18.1943 4.82488 17.207 4.36364 16.1118 4.36364C14.0108 4.36364 12.3072 6.06718 12.3072 8.16706C12.3072 8.46488 12.3408 8.75576 12.4058 9.03391C9.24436 8.87512 6.44106 7.36048 4.56485 5.05894C4.23688 5.61985 4.0503 6.27342 4.0503 6.97109C4.0503 8.29106 4.72246 9.45573 5.74227 10.1371C5.11879 10.1163 4.53239 9.94476 4.01903 9.65967V9.70718C4.01903 11.5498 5.33088 13.0876 7.07033 13.4376C6.75164 13.5234 6.41558 13.5709 6.06791 13.5709C5.82224 13.5709 5.58467 13.5465 5.35173 13.5002C5.83612 15.0125 7.2407 16.1123 8.90485 16.1424C7.60343 17.1622 5.96246 17.7683 4.18012 17.7683C3.87303 17.7683 3.57055 17.7498 3.27273 17.7162C4.95658 18.7974 6.95564 19.4278 9.10418 19.4278C16.1026 19.4278 19.9281 13.6312 19.9281 8.60397L19.9153 8.11145C20.6628 7.57833 21.3094 6.90851 21.8182 6.14597Z"
+                                                fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask0_3320_6484)">
+                                        </g>
+                                    </svg>
+                                </a>
+                                <a href="javascript:void(0)" class="text-talprimary hover:text-talhoverpri">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24 logoclient"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path
+                                            d="M12 3C7.0275 3 3 7.13211 3 12.2284C3 16.3065 5.5785 19.7648 9.15375 20.9841C9.60375 21.0709 9.76875 20.7853 9.76875 20.5403C9.76875 20.3212 9.76125 19.7405 9.7575 18.9712C7.254 19.5277 6.726 17.7332 6.726 17.7332C6.3165 16.6681 5.72475 16.3832 5.72475 16.3832C4.9095 15.8111 5.78775 15.8229 5.78775 15.8229C6.6915 15.887 7.16625 16.7737 7.16625 16.7737C7.96875 18.1847 9.273 17.777 9.7875 17.5414C9.8685 16.9443 10.1003 16.5381 10.3575 16.3073C8.35875 16.0764 6.258 15.2829 6.258 11.7471C6.258 10.7399 6.60675 9.91659 7.18425 9.27095C7.083 9.03774 6.77925 8.0994 7.263 6.82846C7.263 6.82846 8.01675 6.58116 9.738 7.77462C10.458 7.56958 11.223 7.46785 11.988 7.46315C12.753 7.46785 13.518 7.56958 14.238 7.77462C15.948 6.58116 16.7017 6.82846 16.7017 6.82846C17.1855 8.0994 16.8818 9.03774 16.7917 9.27095C17.3655 9.91659 17.7142 10.7399 17.7142 11.7471C17.7142 15.2923 15.6105 16.0725 13.608 16.2995C13.923 16.5765 14.2155 17.1423 14.2155 18.0071C14.2155 19.242 14.2043 20.2344 14.2043 20.5341C14.2043 20.7759 14.3617 21.0647 14.823 20.9723C18.4237 19.7609 21 16.3002 21 12.2284C21 7.13211 16.9703 3 12 3Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </a>
+                                <a href="javascript:void(0)" class="text-talprimary hover:text-talhoverpri">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18 logoclient"
+                                        viewBox="0 0 18 18" fill="none">
+                                        <path
+                                            d="M16.2 0H1.8C0.81 0 0 0.81 0 1.8V16.2C0 17.19 0.81 18 1.8 18H16.2C17.19 18 18 17.19 18 16.2V1.8C18 0.81 17.19 0 16.2 0ZM5.4 15.3H2.7V7.2H5.4V15.3ZM4.05 5.67C3.15 5.67 2.43 4.95 2.43 4.05C2.43 3.15 3.15 2.43 4.05 2.43C4.95 2.43 5.67 3.15 5.67 4.05C5.67 4.95 4.95 5.67 4.05 5.67ZM15.3 15.3H12.6V10.53C12.6 9.81004 11.97 9.18 11.25 9.18C10.53 9.18 9.9 9.81004 9.9 10.53V15.3H7.2V7.2H9.9V8.28C10.35 7.56 11.34 7.02 12.15 7.02C13.86 7.02 15.3 8.46 15.3 10.17V15.3Z"
+                                            fill="currentColor" />
+                                    </svg>
+                                </a>
+                                <a href="javascript:void(0)" class="text-talprimary hover:text-talhoverpri">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24 logoclient"
+                                        viewBox="0 0 24 24" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M7.60063 2.18182H16.3991C19.3873 2.18182 21.8183 4.61281 21.8182 7.60074V16.3993C21.8182 19.3872 19.3873 21.8182 16.3991 21.8182H7.60063C4.6127 21.8182 2.18182 19.3873 2.18182 16.3993V7.60074C2.18182 4.61281 4.6127 2.18182 7.60063 2.18182ZM16.3993 20.0759C18.4266 20.0759 20.0761 18.4266 20.0761 16.3993H20.0759V7.60074C20.0759 5.57348 18.4265 3.92405 16.3991 3.92405H7.60063C5.57336 3.92405 3.92405 5.57348 3.92405 7.60074V16.3993C3.92405 18.4266 5.57336 20.0761 7.60063 20.0759H16.3993ZM6.85714 12.0001C6.85714 9.16424 9.16418 6.85714 12 6.85714C14.8358 6.85714 17.1429 9.16424 17.1429 12.0001C17.1429 14.8359 14.8358 17.1429 12 17.1429C9.16418 17.1429 6.85714 14.8359 6.85714 12.0001ZM8.62798 12C8.62798 13.8593 10.1407 15.3719 12 15.3719C13.8593 15.3719 15.372 13.8593 15.372 12C15.372 10.1406 13.8594 8.6279 12 8.6279C10.1406 8.6279 8.62798 10.1406 8.62798 12Z"
+                                            fill="currentColor" />
+                                        <mask id="mask0_3320_6487" style="mask-type:luminance"
+                                            maskUnits="userSpaceOnUse" x="2" y="2" width="20" height="20">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.60063 2.18182H16.3991C19.3873 2.18182 21.8183 4.61281 21.8182 7.60074V16.3993C21.8182 19.3872 19.3873 21.8182 16.3991 21.8182H7.60063C4.6127 21.8182 2.18182 19.3873 2.18182 16.3993V7.60074C2.18182 4.61281 4.6127 2.18182 7.60063 2.18182ZM16.3993 20.0759C18.4266 20.0759 20.0761 18.4266 20.0761 16.3993H20.0759V7.60074C20.0759 5.57348 18.4265 3.92405 16.3991 3.92405H7.60063C5.57336 3.92405 3.92405 5.57348 3.92405 7.60074V16.3993C3.92405 18.4266 5.57336 20.0761 7.60063 20.0759H16.3993ZM6.85714 12.0001C6.85714 9.16424 9.16418 6.85714 12 6.85714C14.8358 6.85714 17.1429 9.16424 17.1429 12.0001C17.1429 14.8359 14.8358 17.1429 12 17.1429C9.16418 17.1429 6.85714 14.8359 6.85714 12.0001ZM8.62798 12C8.62798 13.8593 10.1407 15.3719 12 15.3719C13.8593 15.3719 15.372 13.8593 15.372 12C15.372 10.1406 13.8594 8.6279 12 8.6279C10.1406 8.6279 8.62798 10.1406 8.62798 12Z"
+                                                fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask0_3320_6487)">
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <p class="text-base font-normal leading-7 text-center text-grey-700">
+                                2024 MicrosData. All rights reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/libs/wow/wow.min.js"></script>
+    <script src="assets/libs/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="/assets/libs/aos-master/dist/aos.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="node_modules/@material-tailwind/html@latest/scripts/ripple.js"></script>
+    <script src="https://unpkg.com/@material-tailwind/html@latest/scripts/ripple.js"></script>
+    <script src="./node_modules/preline/dist/preline.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+        });
+    </script>
+</body>
+
+</html>
